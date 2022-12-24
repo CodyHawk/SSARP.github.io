@@ -1,0 +1,153 @@
+/*
+   ____   _                                     _                                          _                 _     _                 
+  / ___| | |__     __ _   _ __    __ _    ___  | |_    ___   _ __   ___       ___    ___  | |   ___    ___  | |_  (_)   ___    _ __  
+ | |     | '_ \   / _` | | '__|  / _` |  / __| | __|  / _ \ | '__| / __|     / __|  / _ \ | |  / _ \  / __| | __| | |  / _ \  | '_ \ 
+ | |___  | | | | | (_| | | |    | (_| | | (__  | |_  |  __/ | |    \__ \     \__ \ |  __/ | | |  __/ | (__  | |_  | | | (_) | | | | |
+  \____| |_| |_|  \__,_| |_|     \__,_|  \___|  \__|  \___| |_|    |___/     |___/  \___| |_|  \___|  \___|  \__| |_|  \___/  |_| |_|
+                                                                                                                                                                                                        
+*/
+
+#characterSelection {
+    position: absolute;
+    top: 8%;
+    background: #ccc;
+    display: table;
+    width: 46.6%;
+    padding-top: 10px;
+    border: solid 1px black;
+    padding-bottom: 75px;
+}
+
+#row1 {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 26.5%;
+    width: 22.5%;
+    background: #ccc;
+    padding-top: 10px;
+}
+
+#row2 {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 52.5%;
+    width: 22.5%;
+    background: #ccc;
+    padding-top: 10px;
+}
+
+#row3 {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 78.5%;
+    width: 20%;
+    background: #ccc;
+    padding-top: 10px;
+}
+
+#characterSelection select {
+    background: #aaa;
+    height: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1em;
+    border: solid 1px black;
+}
+
+#characterSelection input {
+    background: #aaa;
+    height: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1em;
+    border: solid 1px black;
+}
+
+#characterPicture {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    border: solid 1px black;
+}
+
+
+#characterTable {
+    position: absolute;
+    top: 32.5%;
+    background: #ccc;
+    display: table;
+    width: 46.6%;
+    padding-top: 10px;
+    border: solid 1px black;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/*
+ __     __         _       _          _                           _                 _     _                 
+ \ \   / /   ___  | |__   (_)   ___  | |   ___       ___    ___  | |   ___    ___  | |_  (_)   ___    _ __  
+  \ \ / /   / _ \ | '_ \  | |  / __| | |  / _ \     / __|  / _ \ | |  / _ \  / __| | __| | |  / _ \  | '_ \ 
+   \ V /   |  __/ | | | | | | | (__  | | |  __/     \__ \ |  __/ | | |  __/ | (__  | |_  | | | (_) | | | | |
+    \_/     \___| |_| |_| |_|  \___| |_|  \___|     |___/  \___| |_|  \___|  \___|  \__| |_|  \___/  |_| |_|
+                                                                                                            
+*/
+
+#vehicleSelection {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    margin-right: 10px;
+    background: #ccc;
+    display: table;
+    width: 46%;
+    padding-top: 10px;
+    margin-left: 10px;
+    border: solid 1px black;
+    padding-bottom: 75px;
+}
+
+#vehiclePicture {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    border: solid 1px black;
+    background: #fff;
+}
+
+#vehicleSelection select {
+    background: #aaa;
+    height: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1em;
+    border: solid 1px black;
+}
+
+#vehicleSelection input {
+    background: #aaa;
+    height: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1em;
+    border: solid 1px black;
+}

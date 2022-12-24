@@ -1,0 +1,589 @@
+button:focus {outline:0;}
+
+.department {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+    position: fixed;
+    top: 10%;
+    left: 14%;
+}
+
+#sidebar {
+    position: fixed;
+    top: 10%;
+    margin-left: 10px;
+}
+
+#sidebar button {
+    position: absolute;
+    margin: 0;
+    background: #343434;
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#sidebar .active {
+background: #BF2F2F !important;
+}
+
+button {cursor: pointer}
+
+#statusbar {
+    position: fixed;
+    top: 10%;
+    left: 30%;
+}
+
+#statusbar button {
+    margin: 0;
+    background: #343434;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#statusbar .selected {
+    background: #777777 !important;
+    border: solid 1px #ccc;
+}
+
+.screen {
+    display: none;
+    position: fixed;
+    background: #F9F9F9;
+    border: solid 1px #EFEFEF;
+    top: 15%;
+    left: 235px;
+    width: 100%;
+    height: 83%;
+    flex-grow: 1;
+    overflow-y:auto;
+}
+
+#call {
+    display: none;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+#call h1 {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+#call h2 {
+    margin: 0;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #C9C9C9;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#call #call_details {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+/* Name Search */
+
+#nameSearch h1 {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+#searchResults {
+    margin-top: 30px;
+    display:none;
+}
+
+#nameSearch h2 {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+#nameSearch alert {
+    display: none;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #BF2F2F;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#nameSearch #nameInput {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#nameSearch label {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+#nameSearch input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#nameSearch button {
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#nameReportTable {
+    width: 65%;
+    margin-left: 40px;
+}
+
+#nameSearch select {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    margin-left: 40px;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#inputDiv {
+    float: left;
+    padding-right: 25px;
+}
+
+/* Plate Search */
+
+#plateSearch h1 {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+#plateSearch h2 {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+#plateSearch alert {
+    display: none;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #BF2F2F;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#plateSearch #plateInput {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#plateSearch label {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+#plateSearch input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#plateSearch select {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    margin-left: 40px;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#plateSearch button {
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#plateReportTable {
+    width: 65%;
+    margin-left: 40px;
+}
+
+
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.header {
+    cursor: pointer;
+    background: white !important;
+}
+
+.header.expand .sign:after{
+  content:"-";
+ }
+
+ 
+
+#citation #citationInput {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+#citation label {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+#citation input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#citation button {
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#citation #citationList {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 75px;
+    width: 65%;
+    padding: 25px;
+    background: white;
+    border-radius: 5px;
+}
+
+#citation #citationTable {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 75px;
+    width: 65%;
+}
+
+#citation alert {
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #BF2F2F;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+
+
+#warning #warningInput {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+#warning label {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+#warning input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#warning button {
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#warning #warningList {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 75px;
+    width: 65%;
+    padding: 25px;
+    background: white;
+    border-radius: 5px;
+}
+
+#warning #warningTable {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 75px;
+    width: 65%;
+}
+
+#warning alert {
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #BF2F2F;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+
+
+
+
+#arrest #arrestInput {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+#arrest label {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+#arrest input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#arrest button {
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#arrest #arrestList {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 75px;
+    width: 65%;
+    padding: 25px;
+    background: white;
+    border-radius: 5px;
+}
+
+#arrest #arrestTable {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 75px;
+    width: 65%;
+}
+
+#arrest alert {
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #BF2F2F;
+    font-weight: 500;
+    font-size: 1.5em;
+}

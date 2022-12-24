@@ -1,0 +1,224 @@
+button:focus {outline:0;}
+button {cursor: pointer;}
+
+#sidebar {
+    position: fixed;
+    top: 10%;
+    margin-left: 10px;
+}
+
+#sidebar button {
+    position: absolute;
+    margin: 0;
+    background: #343434;
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.screen {
+    display: none;
+    position: fixed;
+    background: #F9F9F9;
+    border: solid 1px #EFEFEF;
+    top: 10%;
+    left: 235px;
+    width: 86.5%;
+    height: 83%;
+    flex-grow: 1;
+    overflow-y:auto;
+}
+
+.serverStatus {
+    margin: 50px;
+}
+
+#loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.serverStatusBox {
+    background: lightgray;
+    height: 150px;
+    width: 150px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+.serverStatusTitle {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.serverStatusStatus {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.25em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.serverStatusInfo {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.serverStatusBox button,
+.smallButton {
+    position: absolute;
+    margin-top: 7.5px;
+    background: #343434;
+    height: 25px;
+    width: 100px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#playerTable a,
+#userTable a {
+    margin-right: 10px;
+    font-weight: bold;
+    color: darkred;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#playerTable {
+    width: 400px;
+    position: absolute;
+    margin-left: 25px;
+    max-height: 625px;
+    overflow: auto;
+}
+
+#playerTable tbody{
+  display:block;
+  overflow:auto;
+  height: 625px;
+  width: 400px;
+}
+
+#options {
+    position: absolute;
+    left: 30%;
+    top: 0.5%
+}
+
+#options2 {
+    position: absolute;
+    left: 30%;
+    top: 15%
+}
+
+#options3 {
+    position: absolute;
+    left: 52.5%;
+    top: 15%
+}
+
+#announcement {
+    min-width: 300px;
+    min-height: 100px;
+    max-height: 500px;
+    max-width: 1000px;
+}
+
+#serverHeader {
+    margin-left: 25px;
+}
+
+#banModal button,
+#kickModal button,
+#restartModal button,
+#suspendModal button,
+.mediumButton{
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+#loginCode {
+    margin-left: 25px;
+    max-height: 75px;
+    max-width: 300px;
+    min-height: 75px;
+    min-width: 300px;
+}
+
+#user #code {
+    position: absolute;
+    left: 30%;
+}
+
+#userTable {
+    width: 400px;
+    position: absolute;
+    margin-left: 25px;
+    max-height: 625px;
+    overflow: auto;
+}
+
+#userTable tbody{
+  display:block;
+  overflow:auto;
+  height: 625px;
+  width: 400px;
+}

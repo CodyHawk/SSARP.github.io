@@ -1,0 +1,2 @@
+console.log('%cWARNING!', 'color: red; -webkit-text-stroke: 1.5px black; font-size:4em; font-weight: 600;');
+console.log('%cThe console is for developer and server owner use only! Using the console without premission will lead to repercussions!', 'color: black; font-size:2em; font-weight: 600;');

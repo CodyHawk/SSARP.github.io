@@ -1,0 +1,120 @@
+#top {
+    display: table;
+    background-color: #343434;
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    top:0;
+    left:0;
+}
+
+a {
+    color: inherit; 
+} 
+
+.server {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#clock {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#userName {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#aop {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#logout {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#logout img {
+    float:left;
+    padding-right: 20px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 2em;
+}
+
+select {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1em;
+}
+
+button {
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1em;
+}
+
+#identifierModal #identifier {
+    background: #fff;
+    height: 50px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    border: solid 1px black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#identifierModal #submit {
+    background: #aaa;
+    height: 37.5px;
+    width: 150px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.25em;
+    border: solid 1px black;
+    text-align: center;
+}

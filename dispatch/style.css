@@ -1,0 +1,490 @@
+button:focus {outline:0;}
+
+#sidebar {
+    position: fixed;
+    top: 10%;
+    margin-left: 10px;
+}
+
+#sidebar button {
+    position: absolute;
+    margin: 0;
+    background: #343434;
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#sidebar .active {
+background: #BF2F2F !important;
+}
+
+button {cursor: pointer}
+
+.screen {
+    display: none;
+    position: fixed;
+    background: #F9F9F9;
+    border: solid 1px #EFEFEF;
+    top: 10%;
+    left: 235px;
+    width: 65%;
+    max-width: 65%;
+    overflow-x: hidden;
+    height: 88%;
+    flex-grow: 1;
+    overflow-y:auto;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+/* Name Search */
+
+#nameSearch h1 {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+#searchResults {
+    margin-top: 30px;
+    display:none;
+}
+
+#nameSearch h2 {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+#nameSearch alert {
+    display: none;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #BF2F2F;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#nameSearch #nameInput {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#nameSearch label {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+#nameSearch input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#nameSearch button {
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#nameReportTable {
+    width: 65%;
+    margin-left: 40px;
+}
+
+#nameSearch select {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    margin-left: 40px;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#inputDiv {
+    float: left;
+    padding-right: 25px;
+}
+
+/* Plate Search */
+
+#plateSearch h1 {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+#plateSearch h2 {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+#plateSearch alert {
+    display: none;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #BF2F2F;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#plateSearch #plateInput {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#plateSearch label {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+#plateSearch input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#plateSearch select {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    margin-left: 40px;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#plateSearch button {
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#plateReportTable {
+    width: 65%;
+    margin-left: 40px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.header {
+    cursor: pointer;
+    background: white !important;
+}
+
+.header.expand .sign:after{
+    content:"-";
+}
+
+#call {
+    position: fixed;
+    background: #F9F9F9;
+    border: solid 1px #EFEFEF;
+    top: 10%;
+    left: 78.5%;
+    width: 100%;
+    height: 88%;
+    flex-grow: 1;
+    overflow-y:auto;
+}
+
+#call select,
+#editModal select {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    margin-left: 40px;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#call label,
+#editModal label {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    margin-left: 40px;
+    display: block;
+}
+
+#call #inputDiv, 
+#editModal #inputDiv {
+    float: left;
+    margin-top: 15px;
+    display: block;
+}
+
+#call #callInput, 
+#editModal #callInput {
+    float: left;
+}
+
+#call input, 
+#editModal input {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    margin-left: 40px;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#call #location,
+#editModal #location {
+    width: 350px;
+}
+
+#call textarea, 
+#editModal textarea {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    width: 350px;
+    height: 50px;
+    max-height: 350px;
+    margin: 0;
+    margin-left: 40px;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+#call button, 
+#editModal button {
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+#call alert, 
+#editModal alert {
+    margin: 0;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #BF2F2F;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#openCallTable {
+    margin: 10px;
+    margin-right: -10px;
+    width: 98.5%;
+}
+
+#openCallTable img,
+#unitTable img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-right: 10px;
+    float: right;
+    position: relative;
+    cursor: pointer;
+}
+
+#unitTable img {
+    margin-top: -35px;
+}
+
+#unitTable {
+    margin: 10px;
+    margin-right: -10px;
+    width: 98.5%;
+}
+
+#clearModal .modal-content,
+#logoutModal .modal-content
+{
+    width: 500px;
+    overflow: hidden;
+}
+
+#clearModal h1,
+#logoutModal h1{
+    margin: 0;
+}
+
+#clearModal button,
+#logoutModal button {
+    margin: 0;
+    background: #666666;
+    height: 37.5px;
+    width: 125px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 500;
+    border: solid 1px #777777;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+#editModal .modal-content{
+    width: 500px;
+    overflow: hidden;
+}
+
+#editModal #callInput * {
+    margin-left: 0;
+}
+
+#editModal #callInput {
+    margin-left: 15%;
+}
+
+#unitTable select {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.15em;
+    height: 50px;
+    margin: 0;
+    padding:8px;
+    display:block;
+    background: none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
